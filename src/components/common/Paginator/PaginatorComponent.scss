@@ -1,0 +1,12 @@
+.paginator_container {
+  display: flex;
+  position: absolute;
+  bottom: 0;
+}
+
+.paginator_container_btn {
+  padding: 5px 10px;
+  margin: 10px;
+  color: white;
+  cursor: pointer;
+}

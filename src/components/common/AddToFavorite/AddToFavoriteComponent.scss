@@ -1,0 +1,13 @@
+.favoriteButton {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  justify-content: center;
+  padding: 10px;
+  border-radius: 30px;
+  width: 130px;
+}
+
+.favoriteButton img {
+  padding: 0 5px;
+}

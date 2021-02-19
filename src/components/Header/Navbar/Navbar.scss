@@ -1,0 +1,38 @@
+%gradient-color {
+  background: rgb(52, 81, 94);
+  background: linear-gradient(
+    90deg,
+    rgba(52, 81, 94, 1) 10%,
+    rgb(101, 132, 148) 50%,
+    rgba(52, 81, 94, 1) 90%
+  );
+}
+
+.navbar_container {
+  display: flex;
+  justify-content: center;
+  background-color: #34515e;
+  height: 40px;
+  width: 100%;
+  text-decoration: none;
+}
+
+.activeTab {
+  @extend %gradient-color;
+}
+
+.navbar_element {
+  width: 20%;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+.navbar_element:hover {
+  @extend %gradient-color;
+  cursor: pointer;
+}
+
+.navbar_container a {
+  color: #fff;
+}

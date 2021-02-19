@@ -1,0 +1,14 @@
+%favorite-button-params {
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.favorites_active {
+  color: #34515e;
+  font-weight: bold;
+  @extend %favorite-button-params;
+}
+
+.favorites_not_active {
+  @extend %favorite-button-params;
+}
